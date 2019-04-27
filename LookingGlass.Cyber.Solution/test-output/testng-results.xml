@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9450" started-at="2019-04-27T19:19:31Z" finished-at="2019-04-27T19:19:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9450" started-at="2019-04-27T19:19:31Z" finished-at="2019-04-27T19:19:41Z">
+      <class name="Runnerpackage.RunnerClass">
+        <test-method status="PASS" signature="SetUpClass()[pri:0, instance:Runnerpackage.RunnerClass@1a407d53]" name="SetUpClass" is-config="true" duration-ms="535" started-at="2019-04-27T15:19:31Z" finished-at="2019-04-27T15:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@1a407d53]" name="feature" duration-ms="8753" started-at="2019-04-27T15:19:32Z" data-provider="features" finished-at="2019-04-27T15:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user homepage Displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dresses feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Runnerpackage.RunnerClass@1a407d53]" name="teardown" is-config="true" duration-ms="39" started-at="2019-04-27T15:19:41Z" finished-at="2019-04-27T15:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Runnerpackage.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
